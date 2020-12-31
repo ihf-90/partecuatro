@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*
+         * Escribe un programa que recupere una subcadena de un string en otra variable usando una función.
+         */
+         let nombre = prompt("introduce una palabra de cinco letras mínimo");
+         
+         while (nombre.length < 5) {
+             
+             nombre = prompt("introduce una palabra de cinco letras mínimo");
+
+             if (nombre.length >= 5) {
+                 break;
+                }
+            }
+            let subcadena = nombre.substring(2, 4);
+            console.log("La tercera y cuarta letra son " + subcadena + ".");
+  
+
+
+
+
+
+    </script>
+</body>
+
+</html>
